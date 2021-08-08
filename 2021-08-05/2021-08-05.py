@@ -7,7 +7,7 @@
 # 예제 4-1 상하좌우
 n = int(input())
 
-x,y = 1, 1
+x, y = 1, 1
 plans = input().split()
 
 #L,R,U,D
@@ -24,7 +24,7 @@ for plan in plans:
     if nx<1 or ny<1 or nx > n or ny > n:
         continue
 
-    x , y = nx , ny
+    x, y = nx, ny
 
 print(x,y)
 
